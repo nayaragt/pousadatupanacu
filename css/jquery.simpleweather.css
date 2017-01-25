@@ -1,11 +1,13 @@
-<html>
-<head>
+/*
+  Docs at http://http://simpleweatherjs.com
 
+  Look inspired by http://www.degreees.com/
+  Used for demo purposes.
 
-<link rel="stylesheet" src="css/jquery.simpleweather.css">
+  Weather icon font from http://fonts.artill.de/collection/artill-weather-icons
 
-<style>
-
+  DO NOT hotlink the assets/font included in this demo. If you wish to use the same font icon then download it to your local assets at the link above. If you use the links below odds are at some point they will be removed and your version will break.
+*/
 
 @font-face {
     font-family: 'weather';
@@ -96,7 +98,6 @@ i {
 .icon-46:before { content: "U"; }
 .icon-47:before { content: "S"; }
 
-
 #weather h2 {
   margin: 0 0 8px;
   color: #fff;
@@ -122,39 +123,3 @@ i {
 #weather .currently {
   margin: 0 20px;
 }
-
-</style>
-
-</head>
-
-<body>
-
-<div id="weather"></div>
-
-<script async src="http://codepen.io/assets/embed/ei.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery.simpleWeather.min.js"></script>
-<script>
-    // Docs at http://simpleweatherjs.com
-    $(document).ready(function() {
-        $.simpleWeather({
-            location: '-23.0073805,-43.3208486',
-            woeid: '',
-            unit: 'c',
-            success: function(weather) {
-                html = '<h2 class="weather-top"><i class="icon-' + weather.code + '"></i> ' + weather.temp + '&deg;' + weather.units.temp + '</h2>';
-                $("#weather").html(html);
-            },
-            error: function(error) {
-                $("#weather").html('<p>' + error + '</p>');
-            }
-        });
-    });
-</script>
-
-
-
-</body>
-
-</html>
-
