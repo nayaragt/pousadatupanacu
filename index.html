@@ -39,6 +39,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 <style>
 
+@media (max-width:600px){.hide-small{display:none!important}}
+
 .pre-header {
     padding: 1em 0;
     font-size: 10px;
@@ -71,7 +73,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 }
 
 .border-left {
-    height: 40px;
+    height: 30px;
     border-left:1px solid rgba(255,255,255,0.5);
     padding-left: 15px;
 	padding-right: 15px;
@@ -185,12 +187,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="pre-header">
 			<div class="container">				
 				<div class="row">
+				    <span class="hide-small">
 					<!--<div class="pull-right">-->  
 					<div class="pull-left">
 					  <ul class="pre-link-box border-left"> 
 						<img alt="" src="http://www.hotelpraialinda.com.br/addons/praialinda/themes/praialinda/img/icon/icon-mail.png"> reservas@pousadatupanacu.com.br 
 					  </ul>
 					</div>
+					</span>
 
 					<div class="pull-left">
 					  <ul class="pre-link-box border-left"> 
@@ -204,11 +208,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					  </ul>
 					</div>
 					
+					<span class="hide-small">
 					<div class="pull-right">
 					  <ul class="pre-link-box border-left"> 
 						<a href="www.facebook.com/pages/Hotel-Praia-Linda/128420560562616" target="_blank"> <span class="fa-stack"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-facebook fa-stack-1x fa-inverse"></i> </span> </a>
 					  </ul>
 					</div>
+					</span>
 					
 				</div>
 			</div>
@@ -253,11 +259,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav">
 								<!--<li><a class="active" href="#about" class="scroll">A Pousada</a></li>-->
-								<li><a href="#about" class="scroll">A Pousada</a></li>
-								<li><a href="#team" class="scroll">Atividades e Lazer</a></li>
-								<li><a href="#gallery" class="scroll">Galeria de Fotos</a></li>	
-								<li><a href="#news" class="scroll">Reservas</a></li>
-								<li><a href="#services" class="scroll">Como Chegar</a></li>
+								<li><a href="#pousada" class="scroll">A Pousada</a></li>
+								<li><a href="#galeria" class="scroll">Galeria de Fotos</a></li>	
+								<li><a href="#atividades" class="scroll">Atividades e Lazer</a></li>
+								<li><a href="#reservas" class="scroll">Reservas</a></li>
+								<li><a href="#comochegar" class="scroll">Como Chegar</a></li>
 								<!--<li><a href="#contact" class="scroll">Contato</a></li>-->
 							</ul>
 							<div class="clearfix"> </div>							
@@ -283,7 +289,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 	<!-- //banner -->
 	<!-- about -->
-	<div class="about" id="about">
+	<div class="about" id="pousada">
 		<div class="container">
 			<div class="about-heading">
 				<h3>A Pousada</h3>
@@ -333,10 +339,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 	<!-- //about -->
 	<!-- gallery -->
-	<div class="gallery" id="gallery">
+	<div class="gallery" id="galeria">
 		<div class="container">
 			<div class="about-heading">
-				<h3>Our Gallery</h3>
+				<h3>Galeria de Fotos</h3>
 				<p>Cras cursus, nunc sit amet aliquam maximus</p>
 			</div>
 		</div>
@@ -344,8 +350,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="gallery-top-grids">
 					<div class="col-sm-3 gallery-grids-left">
 						<div class="gallery-grid">
-							<a class="example-image-link" href="images/g1.jpg" data-lightbox="example-set" data-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae cursus ligula">
-								<img src="images/g1.jpg" alt="" />
+							<a class="example-image-link" href="images/p1.jpg" data-lightbox="example-set" data-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae cursus ligula">
+								<img src="images/p1.jpg" alt="" />
 								<div class="captn">
 									<h4>Swim Care</h4>
 									<p>Aliquam non</p>
@@ -355,8 +361,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="col-sm-3 gallery-grids-left">
 						<div class="gallery-grid">
-							<a class="example-image-link" href="images/g2.jpg" data-lightbox="example-set" data-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae cursus ligula">
-								<img src="images/g2.jpg" alt="" />
+							<a class="example-image-link" href="images/p2.jpg" data-lightbox="example-set" data-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae cursus ligula">
+								<img src="images/p2.jpg" alt="" />
 								<div class="captn">
 									<h4>Swim Care</h4>
 									<p>Aliquam non</p>
@@ -366,8 +372,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="col-sm-3 gallery-grids-left">
 						<div class="gallery-grid">
-							<a class="example-image-link" href="images/g3.jpg" data-lightbox="example-set" data-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae cursus ligula">
-								<img src="images/g3.jpg" alt="" />
+							<a class="example-image-link" href="images/p3.jpg" data-lightbox="example-set" data-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae cursus ligula">
+								<img src="images/p3.jpg" alt="" />
 								<div class="captn">
 									<h4>Swim Care</h4>
 									<p>Aliquam non</p>
@@ -377,55 +383,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="col-sm-3 gallery-grids-left">
 						<div class="gallery-grid">
-							<a class="example-image-link" href="images/g4.jpg" data-lightbox="example-set" data-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae cursus ligula">
-								<img src="images/g4.jpg" alt="" />
-								<div class="captn">
-									<h4>Swim Care</h4>
-									<p>Aliquam non</p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="gallery-top-grids">
-					<div class="col-sm-3 gallery-grids-left">
-						<div class="gallery-grid">
-							<a class="example-image-link" href="images/g5.jpg" data-lightbox="example-set" data-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae cursus ligula">
-								<img src="images/g5.jpg" alt="" />
-								<div class="captn">
-									<h4>Swim Care</h4>
-									<p>Aliquam non</p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="col-sm-3 gallery-grids-left">
-						<div class="gallery-grid">
-							<a class="example-image-link" href="images/g6.jpg" data-lightbox="example-set" data-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae cursus ligula">
-								<img src="images/g6.jpg" alt="" />
-								<div class="captn">
-									<h4>Swim Care</h4>
-									<p>Aliquam non</p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="col-sm-3 gallery-grids-left">
-						<div class="gallery-grid">
-							<a class="example-image-link" href="images/g7.jpg" data-lightbox="example-set" data-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae cursus ligula">
-								<img src="images/g7.jpg" alt="" />
-								<div class="captn">
-									<h4>Swim Care</h4>
-									<p>Aliquam non</p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="col-sm-3 gallery-grids-left">
-						<div class="gallery-grid">
-							<a class="example-image-link" href="images/g8.jpg" data-lightbox="example-set" data-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae cursus ligula">
-								<img src="images/g8.jpg" alt="" />
+							<a class="example-image-link" href="images/p4.jpg" data-lightbox="example-set" data-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae cursus ligula">
+								<img src="images/p4.jpg" alt="" />
 								<div class="captn">
 									<h4>Swim Care</h4>
 									<p>Aliquam non</p>
@@ -438,8 +397,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="gallery-top-grids">
 					<div class="col-sm-3 gallery-grids-left">
 						<div class="gallery-grid">
-							<a class="example-image-link" href="images/g9.jpg" data-lightbox="example-set" data-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae cursus ligula">
-								<img src="images/g9.jpg" alt="" />
+							<a class="example-image-link" href="images/p5.jpg" data-lightbox="example-set" data-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae cursus ligula">
+								<img src="images/p5.jpg" alt="" />
 								<div class="captn">
 									<h4>Swim Care</h4>
 									<p>Aliquam non</p>
@@ -449,8 +408,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="col-sm-3 gallery-grids-left">
 						<div class="gallery-grid">
-							<a class="example-image-link" href="images/g10.jpg" data-lightbox="example-set" data-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae cursus ligula">
-								<img src="images/g10.jpg" alt="" />
+							<a class="example-image-link" href="images/p6.jpg" data-lightbox="example-set" data-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae cursus ligula">
+								<img src="images/p6.jpg" alt="" />
 								<div class="captn">
 									<h4>Swim Care</h4>
 									<p>Aliquam non</p>
@@ -460,8 +419,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="col-sm-3 gallery-grids-left">
 						<div class="gallery-grid">
-							<a class="example-image-link" href="images/g1.jpg" data-lightbox="example-set" data-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae cursus ligula">
-								<img src="images/g1.jpg" alt="" />
+							<a class="example-image-link" href="images/p7.jpg" data-lightbox="example-set" data-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae cursus ligula">
+								<img src="images/p7.jpg" alt="" />
 								<div class="captn">
 									<h4>Swim Care</h4>
 									<p>Aliquam non</p>
@@ -471,8 +430,55 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="col-sm-3 gallery-grids-left">
 						<div class="gallery-grid">
-							<a class="example-image-link" href="images/g.jpg" data-lightbox="example-set" data-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae cursus ligula">
-								<img src="images/g2.jpg" alt="" />
+							<a class="example-image-link" href="images/p8.jpg" data-lightbox="example-set" data-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae cursus ligula">
+								<img src="images/p8.jpg" alt="" />
+								<div class="captn">
+									<h4>Swim Care</h4>
+									<p>Aliquam non</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="gallery-top-grids">
+					<div class="col-sm-3 gallery-grids-left">
+						<div class="gallery-grid">
+							<a class="example-image-link" href="images/p9.jpg" data-lightbox="example-set" data-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae cursus ligula">
+								<img src="images/p9.jpg" alt="" />
+								<div class="captn">
+									<h4>Swim Care</h4>
+									<p>Aliquam non</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-sm-3 gallery-grids-left">
+						<div class="gallery-grid">
+							<a class="example-image-link" href="images/p10.jpg" data-lightbox="example-set" data-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae cursus ligula">
+								<img src="images/p10.jpg" alt="" />
+								<div class="captn">
+									<h4>Swim Care</h4>
+									<p>Aliquam non</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-sm-3 gallery-grids-left">
+						<div class="gallery-grid">
+							<a class="example-image-link" href="images/p11.jpg" data-lightbox="example-set" data-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae cursus ligula">
+								<img src="images/p11.jpg" alt="" />
+								<div class="captn">
+									<h4>Swim Care</h4>
+									<p>Aliquam non</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-sm-3 gallery-grids-left">
+						<div class="gallery-grid">
+							<a class="example-image-link" href="images/p12.jpg" data-lightbox="example-set" data-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae cursus ligula">
+								<img src="images/p12.jpg" alt="" />
 								<div class="captn">
 									<h4>Swim Care</h4>
 									<p>Aliquam non</p>
@@ -488,10 +494,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 	<!-- //gallery -->
 	<!-- team -->
-	<div class="team" id="team">
+	<div class="team" id="comochegar">
 		<div class="container">
 			<div class="about-heading">
-				<h3>Our Team</h3>
+				<h3>Como chegar</h3>
 				<p>Cras cursus, nunc sit amet aliquam maximus</p>
 			</div>
 			<div class="agileinfo-team-grids">
@@ -553,10 +559,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 	<!-- //team -->
 	<!-- services -->
-	<div class="services" id="services">
+	<div class="services" id="reservas">
 		<div class="container">
 			<div class="about-heading">
-				<h3>Our Services</h3>
+				<h3>Reservas</h3>
 				<p>Cras cursus, nunc sit amet aliquam maximus</p>
 			</div>
 			<div class="w3-agileits-services-grids">
@@ -674,10 +680,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 	<!-- //services -->
 	<!-- news -->
-	<div class="news" id="news">
+	<div class="news" id="atividades">
 		<div class="container">
 			<div class="about-heading">
-				<h3>News & Events</h3>
+				<h3>Atividades e Lazer</h3>
 				<p>Cras cursus, nunc sit amet aliquam maximus</p>
 			</div>
 			<div class="agile-news-grids">
@@ -863,6 +869,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 	<!-- //testimonial -->
 	<!-- subscribe -->
+	<!--
 	<div class="subscribe">
 		<div class="container">
 			<div class="about-heading agile-subscribe-heading">
@@ -876,13 +883,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</form>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<!-- //subscribe -->
-	<!-- map -->
-	<div class="map">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d366417.1205943117!2d-118.4272152627014!3d34.0091834751898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos+Angeles%2C+CA%2C+USA!5e0!3m2!1sen!2sin!4v1472444937012" style="border:0" allowfullscreen></iframe>
-	</div>
-	<!-- //map -->
+
 	<!-- contact -->
 	<div class="contact" id="contact">
 		<div class="container">
@@ -928,7 +931,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 	<!-- //contact -->
+	
+	<!-- map -->
+	<div class="map">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d366417.1205943117!2d-118.4272152627014!3d34.0091834751898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos+Angeles%2C+CA%2C+USA!5e0!3m2!1sen!2sin!4v1472444937012" style="border:0" allowfullscreen></iframe>
+	</div>
+	<!-- //map -->
+	
 	<!-- footer -->
+	<!--
 	<div class="footer">
 		<div class="footer-top">
 			<div class="container">
@@ -976,11 +987,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<!-- //footer -->
+	
 	<div class="copyright">
 		<div class="container">
-			<p>© 2017 Swim Care. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
+			<p>© 2017 | Pousada Tupana&ccedil;&uacute; | Todos os direitos reservados </p>
+			<!--Design by <a href="http://w3layouts.com">W3layouts</a> -->
 		</div>
 	</div>
 <script src="js/responsiveslides.min.js"></script>

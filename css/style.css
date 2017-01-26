@@ -379,7 +379,7 @@ i.fa.fa-cog,i.fa.fa-heart,i.fa.fa-paper-plane{
   -ms-transition: 0.5s all;	
 }
 .w3ls-about-right-img{
-    background: url(../images/a1.jpg) no-repeat 0px 0px;
+    background: url(../images/pousada1.jpg) no-repeat 0px 0px; /* a1.jpg */
     background-size: cover;
     min-height: 340px;
 }
@@ -893,7 +893,7 @@ i.fa.fa-anchor, i.fa.fa-comment, i.fa.fa-heartbeat,i.fa.fa-magnet,i.fa.fa-thumbs
 /*-- //news --*/
 /*-- testimonial --*/
 .testimonial{
-	background:url(../images/ts1.jpg) no-repeat 0px 0px;
+	background:url(../images/ts1.jpwg) no-repeat 0px 0px; /* ts1.jpg */
 	background-size:cover;
 	min-height:300px;
 	position:relative;
