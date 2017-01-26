@@ -893,7 +893,7 @@ i.fa.fa-anchor, i.fa.fa-comment, i.fa.fa-heartbeat,i.fa.fa-magnet,i.fa.fa-thumbs
 /*-- //news --*/
 /*-- testimonial --*/
 .testimonial{
-	background:url(../images/ts1.jpwg) no-repeat 0px 0px; /* ts1.jpg */
+	background:url(../images/ts1.jpeg) no-repeat 0px 0px; /* ts1.jpg */
 	background-size:cover;
 	min-height:300px;
 	position:relative;
