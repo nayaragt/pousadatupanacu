@@ -39,13 +39,17 @@ html, body{
 .w3layouts-logo h1 {
     margin: 0;
 }
+
+
 .w3layouts-logo h1 a {
     color: #fff;
-    font-size: 1em;
-    text-decoration: none;
-    /* font-family: 'Pacifico', cursive; */
-	font-family: 'Courgette', cursive;
-}
+	text-decoration: none;
+	font-family: 'Courgette', cursive;    
+	font-size: 30px;
+    font-size: 1em; 
+    font-family: 'Pacifico', cursive; 
+} 
+
 .agileinfo-social-grids{
     float: right;
     margin: .5em 0 0 0;
@@ -1335,7 +1339,7 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
 	}
 }
 /* @media (min-width: 736px) { menureduzido */
-@media (max-width: 1100px) {
+@media (max-width: 736px) {
 	.navbar-default {
 		border-color: #fff;
 		float: none;
