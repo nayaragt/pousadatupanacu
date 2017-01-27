@@ -20,9 +20,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
 <!--// css -->
 <!-- font-awesome icons -->
-<link href="css/font-awesome.css" rel="stylesheet"> 
-<link href="css/main.css" rel="stylesheet"> 
-<link href="css/jquery.simpleweather.css" rel="stylesheet"> 
+<link href="css/font-awesome.css" type="text/css" rel="stylesheet"> 
+<link href="font-awesome.min.css" type="text/css" rel="stylesheet">
+<link href="css/jquery.simpleweather.css" type="text/css" rel="stylesheet"> 
 <!-- //font-awesome icons -->
 <!-- font -->
 <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
@@ -40,18 +40,181 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 <style>
 
+@media (max-width:600px){.hide-small{display:none!important}}
+
+.pre-header {
+    padding: 1em 0;
+    font-size: 10px;
+	background: none ;
+	color: #fff !important;
+    /* background:rgba(0,0,0,0.4); */
+    /* height: 40px; */
+	/* background: rgba(0, 0, 0, 0.6); */
+	/* background: rgba(121, 210, 121, 0.6); */
+	
+}
+
+.pre-header ul, .pre-header p{
+    /* padding-top: 8px; */
+}
+
+.pre-header ul li {
+    float: left;
+    margin-right: 20px;
+}
+
+.pre-header ul li.redes-sociais {
+    float: left;
+    margin-right: 2px;
+}
+
+
+.pre-header i {
+    /* padding-right: 5px; */
+}
+
+.border-left {
+    height: 30px;
+    border-left:1px solid rgba(255,255,255,0.5);
+    padding-left: 15px;
+	padding-right: 15px;
+}
+
+.pre-link-box{
+    /* line-height: 25px; */
+	line-height: 25px !important;
+}
+.pre-address-b{
+    height: auto;
+    padding-top: 4px;
+}
+
+
+
+.language-box {
+    height: 40px;
+}
+
+.language-box ul{
+    background: #fff;
+    height: 40px;
+    position: relative;
+    z-index: 1;
+    padding: 0;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    overflow: hidden;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.language-box ul:hover{
+    height: 220px;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.language-box ul li{
+    float: none;
+    margin: 0;
+    padding: 0;
+    font-size: 11px;
+    border-bottom: 1px solid #f4f4f4;
+    line-height: 25px;
+}
+
+.language-box ul li:last-child{
+    border-bottom: 0;
+}
+
+.language-box ul li a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    padding-bottom: 10px;
+}
+
+.language-box ul li img{
+    margin-right: 8px;
+    margin-top: -3px;
+}
+
+.main-header {
+    background: #F5F5F5;
+    height: auto;
+}
+
+.main-header .logo {
+    padding: 2px 0;
+}
+.main-header .logo img{
+    width: 150px;
+}
+.main-header a {
+    font-family: Varela Round;
+}
+
+.main-header2 {
+    background: #F5F5F5;
+    height: auto;
+}
+
+.main-header2 .logo {
+    padding: 2px 0;
+}
+.main-header2 .logo img{
+    width: 150px
+}
+.main-header2 a {
+    font-family: Varela Round;
+}
+
+
+
+
+
+.navbar {
+      /* font-family: Montserrat, sans-serif; */
+      margin-bottom: 0;
+      background-color: #2d2d30;
+      border: 0;
+	  text-decoration: none;
+      /* font-size: 11px !important; */
+	  font-size: 1em; 
+      letter-spacing: 4px;
+      opacity: 0.9;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+      color: #fff !important;
+  }
+  .navbar-nav li a:hover {
+      color: #d5d5d5 !important;
+  }
+  .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+  
 
 </style>
 
 </head>
-<body>
+		
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
 <!-- banner -->
 <div class="banner">
-		
-	<!--<div class="header"> -->
-	
+
+<div class="header">
+
 		<div class="pre-header">
-			<div class="container">				
+			<!--<div class="container">	-->			
 				<div class="row">
 				    <span class="hide-small">
 					<!--<div class="pull-right">-->  
@@ -77,71 +240,47 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<span class="hide-small">
 					<div class="pull-right">
 					  <ul class="pre-link-box border-left"> 
-						<a href="https://www.facebook.com/pousadatupanacu" target="_blank"> <span class="fa-stack"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-facebook fa-stack-1x fa-inverse"></i> </span> </a>
+						<a href="www.facebook.com/pages/Hotel-Praia-Linda/128420560562616" target="_blank"> 
+						<span class="fa-stack"> 
+						<i class="fa fa-circle fa-stack-2x"></i> 
+						<i class="fa fa-facebook fa-stack-1x fa-inverse"></i> 
+						</span> 
+						</a>
 					  </ul>
 					</div>
 					</span>
 					
 				</div>
-			</div>
-		</div> 		
-		
-<!--	</div>	-->
-		
-		
-		
-		
-	<div class="header">
+			<!--</div> -->
+		</div> 	
 		
 
-			<div class="container">
-				<div class="header-left">
-					<div class="w3layouts-logo">
-						<h1><a href="index.html">Pousada Tupana&ccedil;&uacute;</a></h1>
-					</div>
-					<!--
-					<div class="agileinfo-social-grids">
-						<ul>
-							<li><a href="https://www.facebook.com/pousadatupanacu" target="_blank"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#"><i class="fa fa-rss"></i></a></li>
-							<li><a href="#"><i class="fa fa-vk"></i></a></li>
-						</ul>
-					</div>
-					-->
-					<!-- <div class="clearfix"> </div> -->
-				</div>
-				<div class="top-nav">
-					<nav class="navbar navbar-default">
-							<div class="navbar-header">
-								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-									<span class="sr-only">Toggle navigation</span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-								</button>
-							</div>
-						<!-- Collect the nav links, forms, and other content for toggling -->
-						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-							<ul class="nav navbar-nav">
-								<!--<li><a class="active" href="#about" class="scroll">A Pousada</a></li>-->
-								<li><a href="#pousada" class="scroll">A Pousada</a></li>
-								<li><a href="#galeria" class="scroll">Galeria de Fotos</a></li>	
-								<li><a href="#atividades" class="scroll">Atividades e Lazer</a></li>
-								<li><a href="#reservas" class="scroll">Reservas</a></li>
-								<li><a href="#comochegar" class="scroll">Como Chegar</a></li>
-								<!--<li><a href="#contact" class="scroll">Contato</a></li>-->
-							</ul>
-							<!-- <div class="clearfix"> </div>		-->					
-						</div>	
-					</nav>		
-				</div>
-				<div class="clearfix"> </div>
-			</div>
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>                        
+		  </button>
+		  <a class="navbar-brand" style="font-family:'Courgette',cursive; padding: 10px" href="#myPage">Pousada Tupana&ccedil;&uacute;</a>
 		</div>
-		
+		<div class="collapse navbar-collapse" id="myNavbar">
+		  <ul class="nav navbar-nav navbar-right">
+			<li><a id="" href="#pousada" class="scroll">A Pousada</a></li>
+			<li><a id="" href="#galeria" class="scroll">Galeria de Fotos</a></li>	
+			<li><a id="" href="#atividades" class="scroll">Atividades e Lazer</a></li>
+			<li><a id="" href="#reservas" class="scroll">Reservas</a></li>
+			<li><a id="" href="#contato" class="scroll">Contato</a></li>
+			<li><a id="" href="#comochegar" class="scroll">Como Chegar</a></li>
+		  </ul>
+		</div>
+	  </div>
+	</nav>
+				
+</div>
 
-		
+
 		<div class="banner-info">
 			<div class="container">
 				<h3>Aliquam erat volutpat. Duis vulputate tempus laoreet. Integer viverra eleifend neque, eget dictum lectus. Quisque eu tempor dolor.</h3>
@@ -152,8 +291,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 			</div>
 		</div>
-	</div>
+
+</div>
 	<!-- //banner -->
+	
 	<!-- about -->
 	<div class="about" id="pousada">
 		<div class="container">
@@ -770,19 +911,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="contact" id="contact">
 		<div class="container">
 			<div class="about-heading">
-				<h3>Contact Us</h3>
+				<h3>Contato</h3>
 				<p>Cras cursus, nunc sit amet aliquam maximus</p>
 			</div>
 			<div class="address">
 				<div class="col-sm-4 address-grids">
-					<h4>Address :</h4>
+					<h4>Endere&ccedil;o :</h4>
 					<p>Eiusmod Tempor inc<br>
 						<span>1St Golden Place,</span>
 						Los Angeles 1256
 					</p>	
 				</div>
 				<div class="col-sm-4 address-grids">
-					<h4>Phone :</h4>
+					<h4>Telefone :</h4>
 					<p>+2 123 456 789</p>
 					<p>+2 987 654 321</p>
 				</div>
@@ -805,7 +946,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<input type="email" placeholder="Email" required="">
 					<input type="text" placeholder="Telephone" required="">
 					<textarea placeholder="Message" required=""></textarea>
-					<button class="btn1 hvr-sweep-to-bottom">Submit</button>
+					<button class="btn1 hvr-sweep-to-bottom">Enviar</button>
 				</form>
 			</div>
 		</div>
@@ -911,6 +1052,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery.simpleWeather.min.js"></script>
 <script>
+
     // Docs at http://simpleweatherjs.com
     $(document).ready(function() {
         $.simpleWeather({

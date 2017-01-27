@@ -4185,13 +4185,51 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-bottom: 0;
   border-width: 1px 0 0;
 }
+
+@media (min-width:768px){
 .navbar-brand {
   float: left;
   height: 50px;
   padding: 15px 15px;
   font-size: 18px;
   line-height: 20px;
+  font-family: 'Courgette', cursive; 
 }
+}
+  
+@media (min-width:992px){
+.navbar-brand {
+  float: left;
+  height: 50px;
+  padding: 15px 15px;
+  font-size: 24px;
+  line-height: 20px;
+  font-family: 'Courgette', cursive; 
+}
+}
+  
+@media (min-width:1200px){
+.navbar-brand {
+  float: left;
+  height: 50px;
+  padding: 15px 15px;
+  font-size: 24px;
+  line-height: 20px;
+  font-family: 'Courgette', cursive; 
+}
+}
+  
+
+/*
+.navbar-brand {
+  float: left;
+  height: 50px;
+  padding: 15px 15px;
+  font-size: 24px;
+  line-height: 20px;
+  font-family: 'Courgette', cursive; 
+}
+*/
 .navbar-brand:hover,
 .navbar-brand:focus {
   text-decoration: none;

@@ -13,7 +13,8 @@ body a {
 }
 html, body{
     font-size: 100%;
-	font-family: 'Roboto Condensed', sans-serif;
+	/* font-family: 'Roboto Condensed', sans-serif; */
+	font-family: Montserrat, sans-serif; 
 	background:#FFFFFF;
 }
 /*-- banner --*/
@@ -45,9 +46,9 @@ html, body{
     color: #fff;
 	text-decoration: none;
 	font-family: 'Courgette', cursive;    
-	font-size: 30px;
-    font-size: 1em; 
-    font-family: 'Pacifico', cursive; 
+	/* font-size: 30px; */
+    /* font-size: 1em; */
+    /* font-family: 'Pacifico', cursive; */
 } 
 
 .agileinfo-social-grids{
@@ -1208,7 +1209,7 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
 		width: 40%;
 	}
 	.banner {
-		background: url(../images/2.jpg) no-repeat 0px 0px;
+		background: url(../images/header2.jpg) no-repeat 0px 0px;
 		background-size: cover;
 	}
 	.icon-right {
@@ -1251,7 +1252,7 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
 	}
 }
 /* @media(max-width:991px){ menu reduzido*/
-@media(max-width:1100px){
+@media(max-width:991px){
 	.header-left {
 	    float: none;
 		width: 100%;
