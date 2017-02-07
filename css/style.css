@@ -19,10 +19,11 @@ html, body{
 }
 /*-- banner --*/
 .banner{
-	/* background: url(../images/2.jpg) no-repeat 0px -52px; */
-	background: url(../images/header2.jpg) no-repeat 0px -52px;
+	/* background: url(../images/header2.jpg) no-repeat 0px -52px; */
+	background: url(../images/header2.jpg) no-repeat 0px -100px;
     background-size: cover;
-    padding: 0 0 12em 0;
+    /* padding: 0 0 12em 0; */
+	padding: 0 0 30em 0;
 }
 /*-- header-left --*/
 .header {
