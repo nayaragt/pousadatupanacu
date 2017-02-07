@@ -396,11 +396,28 @@ i.fa.fa-cog,i.fa.fa-heart,i.fa.fa-paper-plane{
     font-weight: 600;
     margin: 0 0 1em 0;
 }
+
+.icon-right h6{
+    color: #fff;
+    font-size: 1em;
+    font-weight: 600;
+    margin: 0 0 1em 0;
+	letter-spacing: 2px;
+}
+
 .icon-right p{
 	color: #999999;
     font-size: .9em;
     line-height: 1.8em;
     margin: 0;	
+}
+
+.icon-right p1{
+	color: #fff;
+    font-size: .9em;
+    line-height: 1.8em;
+    margin: 0;	
+	letter-spacing: 2px;
 }
 .agileits-icon-grid:nth-child(2){
 	margin:2em 0;
@@ -1637,7 +1654,7 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
 		right: 45px;
 	}
 	.banner {
-		background: url(../images/2.jpg) no-repeat -84px 0px;
+		background: url(../images/header2.jpg) no-repeat -84px 0px;
 		background-size: cover;
 	}
 	.icon-right {
@@ -1752,7 +1769,7 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
 		width: 100%;
 	}
 	.banner {
-		background: url(../images/2.jpg) no-repeat -130px 0px;
+		background: url(../images/header2.jpg) no-repeat -130px 0px;
 		background-size: cover;
 	}
 	.captn {
@@ -1776,7 +1793,8 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
 		margin: 1em auto;
 	}
 	.about-heading h3 {
-		font-size: 1.5em;
+		/* font-size: 1.5em; */
+		font-size: 1.2em;
 	}
 	.w3ls-text {
 		margin: 2em auto 0;
@@ -1813,7 +1831,7 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
 	}
 	.banner {
 		/* background: url(../images/2.jpg) no-repeat -190px 0px; */
-		background: url(../images/2.jpg) no-repeat 0px 0px;
+		background: url(../images/header2.jpg) no-repeat 0px 0px;
 		background-size: cover;
 	}
 	.captn {
