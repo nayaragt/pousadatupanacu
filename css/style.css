@@ -395,14 +395,16 @@ i.fa.fa-cog,i.fa.fa-heart,i.fa.fa-paper-plane{
     color: #000000;
     font-size: 1em;
     font-weight: 600;
-    margin: 0 0 1em 0;
+    /* margin: 0 0 1em 0; */
+	margin: 1em 0 1em 0;
 }
 
 .icon-right h6{
     color: #fff;
     font-size: 1em;
     font-weight: 600;
-    margin: 0 0 1em 0;
+    /* margin: 0 0 1em 0; */
+	margin: 1em 0 1em 0;
 	letter-spacing: 2px;
 }
 
