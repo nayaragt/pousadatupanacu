@@ -209,8 +209,9 @@ html, body{
     color: #ffffff;
     border: 3px solid #2f2f2f;
     text-transform: uppercase;
-    background: #f44336;
-    letter-spacing: 1px;
+    /*background: #f44336; */
+    background: rgba(121, 210, 121, 0.6);
+	letter-spacing: 1px;
     font-weight: 700;
     text-decoration: none;
 }
@@ -262,6 +263,86 @@ html, body{
 }
 
 /*-- //banner-info --*/
+
+/*--starts-care--*/
+.care{
+	padding:4em 0px 3em 0px;
+}
+.care-top{
+	text-align:center;
+}
+.care-top h3 {
+	color: #31353e;
+	font-size: 1.8em;
+	margin: 0px;
+	font-weight: 600;
+}
+.care-top p{
+	color:#31353e;
+	font-size:14px;
+	margin-top: 10px;
+}
+.care-bottom{
+	text-align:center;
+	margin-top: 3em;
+}
+.care-bottom-left{
+	background:#f1e85b;
+	padding: 2.3em 2em;
+}
+.care-bottom-middle{
+	background:#fb7802;
+	padding: 2.3em 2em;
+}
+.care-bottom-right{
+	/* background:#6aa320; */
+	background:#79d279;
+	padding: 2.3em 2em;
+}
+.care-bottom-left h4,.care-bottom-middle h4,.care-bottom-right h4{
+	color:#fff;
+	/* font-size:1.2em; */
+	font-size: 2.5em;
+	font-weight:700;
+	text-transform: uppercase;
+	margin: 20px 0px 15px 0px;
+}
+.care-bottom-left p,.care-bottom-middle p,.care-bottom-right p{
+	color: #fff;
+	font-size: 20px;
+	line-height: 1.8em;
+	letter-spacing: 2px;
+}
+.care-bottom-left span,.care-bottom-middle span,.care-bottom-right span{
+	color: #fff;
+	font-size: 15px;
+	line-height: 1.8em;
+	letter-spacing: 2px;
+}
+.view{
+	margin-top:2em;
+}
+.view a{
+	color:#fff;
+	font-size:1em;
+	font-weight:400;
+	outline: none;
+	background:#31353e;
+	padding: 15px 25px;
+}
+.view a:hover{
+	color:#fff;
+	background:#F41943;
+	text-decoration:none;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+/*--end-care--*/
+
+
 /*-- about --*/
 .about,.gallery,.team,.services,.news,.testimonial,.subscribe,.contact{
 	padding:4em 0;
@@ -519,6 +600,13 @@ i.fa.fa-cog,i.fa.fa-heart,i.fa.fa-paper-plane{
 	background-size:cover;
 	min-height:400px;
 }
+
+.w3-agileits-services-left-2{
+	background:url(../images/contato.jpg) no-repeat 0px 0px;
+	background-size:cover;
+	min-height:400px;
+}
+
 /*--slider--*/
 #slider2,
 #slider3 {
@@ -704,6 +792,13 @@ i.fa.fa-cog,i.fa.fa-heart,i.fa.fa-paper-plane{
     margin: 3em auto 0;
     text-align: center;
 }
+
+.w3ls-text-2{
+    width: 80%;
+    margin: 3em auto 0;
+    text-align: justify;
+}
+
 .w3ls-text h5{
 	color: #FFFFFF;
     font-size: 1em;
@@ -985,7 +1080,55 @@ button.btn1:hover i.fa.fa-paper-plane-o{
     color: #2f2f2f !important;
 }
 /*-- //subscribe --*/
-/*-- map --*/
+
+/*----*/
+.map iframe{
+	width: 100%;
+	min-height: 400px;
+	border: 0;
+	margin-bottom: -6px;
+}
+.map-top{
+	position:relative;
+}
+
+/*
+.address{
+	background: #ff9900;
+	width: 330px;
+	height: 330px;
+	position: absolute;
+	top: 20%;
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 170px;
+	padding: 6em 0;
+	left: 39%;
+}
+.address h5{
+	color: #fff;
+	font-size: 2em;
+	font-weight: 700;
+	letter-spacing: 3px;
+}
+.address p{
+	color: #fff;
+	font-size: 1.2em;
+	letter-spacing: 3px;
+	line-height: 1.7em;
+	font-weight: 300;
+	margin: 1em 0;
+}
+a.company{
+	text-decoration:none;
+	color:#fff;
+	font-size: 1.2em;
+	letter-spacing: 3px;
+}
+*/
+/*----*/
+
+/*-- map
 .map{
 	
 }
@@ -993,26 +1136,18 @@ button.btn1:hover i.fa.fa-paper-plane-o{
 	width:100%;
 	min-height:400px;
 }
-/*-- //map --*/
+map --*/
 /*-- contact --*/
-.contact{
-	background:#FFFFFF;
-}
+
+/*-- address --*/
 .address {
     margin: 4em 0 0 0;
 }
 .address-grids {
     padding: 0;
 }
-.contact-form h4,.address h4,.contact h4 {
-	margin-bottom: 2em;
-    color: #404040;
-    margin: 0 0 1em 0;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    font-size: 1.5em;
-}
-.address p,.contact-infom p{
+
+.address p {
     margin:0;
     color: #999999;
     font-size: .9em;
@@ -1027,6 +1162,29 @@ button.btn1:hover i.fa.fa-paper-plane-o{
 .address a:hover{
 	color:#f44336;
 }
+/*-- //address --*/
+
+/*-- contact --*/
+.contact{
+	background:#FFFFFF;
+}
+/*
+.contact-form h4,.address h4,.contact h4 {
+	margin-bottom: 2em;
+    color: #404040;
+    margin: 0 0 1em 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+*/
+.contact-infom p{
+    margin:0;
+    color: #999999;
+    font-size: .9em;
+    line-height: 1.8em;
+}
+
 .contact-infom {
     margin: 2em 0 0 0;
 }

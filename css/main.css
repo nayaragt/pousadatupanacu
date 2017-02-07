@@ -183,7 +183,10 @@ h6 {
 /*  Header
 /*-----------------------------------------------------------------------------------*/
 
-@media (max-width:600px){.hide-small{display:none!important}}
+@media (min-width:1px) and (max-width:680px){.hide-sm {display:none!important}}
+
+@media (min-width:681px) and (max-width:800px) {.hide-md {display:none!important}}
+
 
 .pre-header {
     font-size: 11px;
@@ -221,8 +224,13 @@ h6 {
 }
 
 .border-left {
-    height: 40px;
+    height: 30px;
     border-left:1px solid rgba(255,255,255,0.5);
+    padding-left: 15px;
+	padding-right: 15px;
+}
+
+.border-n {
     padding-left: 15px;
 	padding-right: 15px;
 }
