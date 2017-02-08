@@ -279,7 +279,8 @@ html, body{
 	font-weight: 600;
 }
 .care-top p{
-	color:#31353e;
+	/* color:#31353e; */
+	color:#6666ff;
 	font-size:14px;
 	margin-top: 10px;
 }
@@ -288,7 +289,7 @@ html, body{
 	margin-top: 3em;
 }
 .care-bottom-left{
-	background:#f1e85b;
+	background:#ffff80;
 	padding: 2.3em 2em;
 }
 .care-bottom-middle{
@@ -301,7 +302,7 @@ html, body{
 	padding: 2.3em 2em;
 }
 .care-bottom-left h4,.care-bottom-middle h4,.care-bottom-right h4{
-	color:#fff;
+	color:#6666ff;
 	/* font-size:1.2em; */
 	font-size: 2.5em;
 	font-weight:700;
@@ -309,7 +310,7 @@ html, body{
 	margin: 20px 0px 15px 0px;
 }
 .care-bottom-left p,.care-bottom-middle p,.care-bottom-right p{
-	color: #fff;
+	color: #6666ff;
 	font-size: 20px;
 	line-height: 1.8em;
 	letter-spacing: 2px;
@@ -400,7 +401,7 @@ i.fa.fa-cog,i.fa.fa-heart,i.fa.fa-paper-plane{
 }
 
 .icon-right h6{
-    color: #fff;
+    color: #6666ff;
     font-size: 1em;
     font-weight: 600;
     /* margin: 0 0 1em 0; */
@@ -416,7 +417,7 @@ i.fa.fa-cog,i.fa.fa-heart,i.fa.fa-paper-plane{
 }
 
 .icon-right p1{
-	color: #fff;
+	color: #6666ff;
     font-size: .9em;
     line-height: 1.8em;
     margin: 0;	
