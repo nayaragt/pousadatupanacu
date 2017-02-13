@@ -128,14 +128,14 @@ h2 {
     letter-spacing: 0.0825em;
 }
 
+/*
 h3 {
-    /* font-family: Varela Round;*/
     font-family: 'Arial', serif;
     font-size: 21px;
     line-height: 36px;
     color: #000;
     letter-spacing: 0.0825em;
-}
+} */
 
 h4 {
     /* font-family: Varela Round;*/
@@ -149,19 +149,28 @@ h4 {
 h5 {
     /* font-family: Varela Round;*/
     font-family: 'Arial', serif;
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 16px;
+    line-height: 24px;
     color: #000;
     letter-spacing: 0.0825em;
 }
 
 h6 {
-    font-family: Varela Round;
+    font-family: 'Arial', serif;
     font-size: 12px;
-    line-height: 24px;
+    line-height: 20px;
     color: #000;
     letter-spacing: 0.0825em;
 }
+
+h6 p{
+    font-family: 'Arial', serif;
+    font-size: 10px !important;
+    line-height: 18px;
+    color: #000;
+    letter-spacing: 0.0825em;
+}
+
 
 .content{
     background: #fff;
@@ -187,6 +196,7 @@ h6 {
 
 @media (min-width:681px) and (max-width:800px) {.hide-md {display:none!important}}
 
+@media (min-width:801px) and (max-width:1200px) {.hide-lg {display:none!important}}
 
 .pre-header {
     font-size: 11px;

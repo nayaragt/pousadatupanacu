@@ -423,6 +423,8 @@ i.fa.fa-cog,i.fa.fa-heart,i.fa.fa-paper-plane{
     margin: 0;	
 	letter-spacing: 2px;
 }
+
+
 .agileits-icon-grid:nth-child(2){
 	margin:2em 0;
 }
@@ -1773,7 +1775,8 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
 		width: 100%;
 	}
 	.banner {
-		background: url(../images/header2.jpg) no-repeat -130px 0px;
+		/* background: url(../images/header2.jpg) no-repeat -130px 0px; */
+		background: url(../images/header2.jpg) no-repeat -0px 0px;
 		background-size: cover;
 	}
 	.captn {
