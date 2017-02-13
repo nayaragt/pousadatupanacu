@@ -104,11 +104,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //google analytics -->
 
 <!-- google tag manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-PSZZXZZ');</script>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-PSZZXZZ');</script>
 <!-- //google tag manager -->
 
 </head>
@@ -869,7 +865,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	</div>
 	<!-- //footer -->
 	
-<script src="js/responsiveslides.min.js"></script>
+<script type="text/javascript" src="js/responsiveslides.min.js"></script>
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
 <script type="text/javascript">
@@ -882,19 +878,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </script>
 	<!-- here stars scrolling icon -->
 	<script type="text/javascript">
+	/*
 		$(document).ready(function() {
-			/*
+		
 				var defaults = {
 				containerID: 'toTop', // fading element id
 				containerHoverID: 'toTopHover', // fading element hover id
 				scrollSpeed: 1200,
 				easingType: 'linear' 
 				};
-			*/
+		
 								
 			$().UItoTop({ easingType: 'easeOutQuart' });
 								
 			});
+	*/
 	</script>
 <!-- //here ends scrolling icon -->
 
@@ -930,25 +928,6 @@ $(document).on('click',function(){
     });
 </script>
 
-
-<!-- <script src="http://www.hotelpraialinda.com.br/addons/praialinda/themes/praialinda/js/weather/jquery.simpleWeather.min.js" type="text/javascript"></script>
-<script>
-    // Docs at http://simpleweatherjs.com
-    $(document).ready(function() {
-        $.simpleWeather({
-            location: '-23.0073805,-43.3208486',
-            woeid: '',
-            unit: 'c',
-            success: function(weather) {
-                html = '<span class="weather-top"><i class="icon-' + weather.code + '"></i> ' + weather.temp + '&deg;' + weather.units.temp + '</span>';
-                $("#weather").html(html);
-            },
-            error: function(error) {
-                $("#weather").html('<p>' + error + '</p>');
-            }
-        });
-    });
-</script>-->
 
 </body>	
 </html>
